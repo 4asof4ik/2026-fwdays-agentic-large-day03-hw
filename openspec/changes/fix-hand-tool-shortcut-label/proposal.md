@@ -15,6 +15,12 @@ The hand (pan) tool in the Excalidraw toolbar is the only tool missing its keybo
 
 ### Modified Capabilities
 
+## Risks
+
+- **Intentional design choice**: The original exclusion may have been deliberate to visually distinguish the hand (navigation) tool from drawing tools. However, `HandButton` already supports showing "H" on desktop, and the GitHub issue confirms users perceive this as a bug rather than a feature.
+- **Snapshot test breakage**: If any test snapshots include the toolbar rendering, they may need updating. Mitigated by running `yarn test:update` as part of verification.
+- **Low regression risk**: The change is a single-line removal of a conditional, affecting only the label overlay — no functional or behavioral changes to the hand tool itself.
+
 ## Impact
 
 - **Code**: `packages/excalidraw/components/Actions.tsx` — the `ShapesSwitcher` component's keybinding label computation (line ~1104) where `value === "hand"` causes the label to be `undefined`
