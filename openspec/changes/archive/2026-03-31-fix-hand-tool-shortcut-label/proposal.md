@@ -1,3 +1,5 @@
++# Proposal: Fix Hand Tool Shortcut Label
+
 ## Why
 
 The hand (pan) tool in the Excalidraw toolbar is the only tool missing its keyboard shortcut label ("H") as a superscript on the icon. Every other tool displays its shortcut key, creating a visual inconsistency that hurts discoverability. This is a regression in toolbar UX consistency reported in [GitHub issue #11020](https://github.com/excalidraw/excalidraw/issues/11020).

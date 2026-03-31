@@ -21,7 +21,7 @@ Open-source virtual whiteboard for sketching hand-drawn-like diagrams. Published
 
 ## Monorepo Structure
 
-```
+```text
 excalidraw-monorepo/
 ├── packages/
 │   ├── excalidraw/       # Main React component library (@excalidraw/excalidraw)
