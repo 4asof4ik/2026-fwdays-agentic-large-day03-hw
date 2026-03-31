@@ -7,7 +7,7 @@ The hand (pan) tool in the Excalidraw toolbar is the only tool missing its keybo
 ## What Changes
 
 - Remove the explicit exclusion of the hand tool from shortcut label rendering in the desktop toolbar's `ShapesSwitcher` component
-- The hand tool icon will display "H" as a superscript label, matching the pattern used by all other toolbar tools (selection shows "1", rectangle shows "R", etc.)
+- The hand tool icon will display "H" as a superscript label, matching the pattern used by all other toolbar tools (selection shows "1", rectangle shows "2", etc.)
 
 ## Capabilities
 
