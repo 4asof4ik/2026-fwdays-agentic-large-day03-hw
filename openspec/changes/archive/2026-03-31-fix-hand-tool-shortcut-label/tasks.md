@@ -4,9 +4,9 @@
 
 ## 2. Tests
 
-- [ ] 2.1 Add a unit test in `packages/excalidraw/tests/` that renders the `ShapesSwitcher` toolbar and asserts the hand tool icon contains a `span.ToolIcon__keybinding` with text content `"H"`
-- [ ] 2.2 Add a unit test asserting that every tool in `SHAPES` with a non-null `key` or `numericKey` produces a non-undefined `keybindingLabel` (no tool-specific exclusions)
-- [ ] 2.3 Add a unit test verifying the mobile `HandButton` (with `isMobile=true`) does NOT render a `.ToolIcon__keybinding` element
+- [x] 2.1 Add a unit test in `packages/excalidraw/tests/` that renders the `ShapesSwitcher` toolbar and asserts the hand tool icon contains a `span.ToolIcon__keybinding` with text content `"H"`
+- [x] 2.2 Add a unit test asserting that every tool in `SHAPES` with a non-null `key` or `numericKey` produces a non-undefined `keybindingLabel` (no tool-specific exclusions)
+- [x] 2.3 Add a unit test verifying the mobile `HandButton` (with `isMobile=true`) does NOT render a `.ToolIcon__keybinding` element
 
 ## 3. Verification
 
